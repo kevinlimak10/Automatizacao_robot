@@ -17,13 +17,6 @@ Abrir a calculadora
     Digitar Operador Igual
     Chamar Funcao Excel 
     Abrir Chrome
-Open browser without option
-    ${BROWSER} =     Get variable value    ${BROWSER}    ${DEFAULT_BROWSER}
-    Open browser    http://https://www.google.com/    browser=${BROWSER}
-Mouse over event
-    Run Async Keywords
-    ...    Mouse Over    title=Pesquisar 
-    Click Element    title=Pesquisar
 *** Keywords ***
 Add Needed Image Path 
     Add Image Path          ${IMAGE_DIR}
